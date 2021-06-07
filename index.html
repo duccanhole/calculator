@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Calculator</title>
+</head>
+<style>
+    #calcul {
+        width: 30%;
+    }
+    #show{
+        height: 45px;
+        overflow: hidden;
+    }
+    @media only screen and (max-width: 600px) {
+        #calcul {
+            width: 80%;
+        }
+    }
+</style>
+
+<body>
+    <div class="card text-white bg-primary mx-auto mt-4" id="calcul">
+        <div class="card-body">
+            <h4 class="card-title">Simple Calculator</h4>
+            <div class="card-text bg-light text-dark"><h1 id="show"></h1></div>
+            <div class="row">
+                <div class="m-2 btn btn-danger col">C</div>
+                <div class="m-2 btn btn-secondary col">+</div>
+                <div class="m-2 btn btn-secondary col">-</div>
+                <div class="m-2 btn btn-secondary col">*</div>
+                <div class="m-2 btn btn-secondary col">/</div>
+            </div>
+            <div class="row">
+                <div class="m-2 btn btn-light col">7</div>
+                <div class="m-2 btn btn-light col">8</div>
+                <div class="m-2 btn btn-light col">9</div>
+            </div>
+            <div class="row">
+                <div class="m-2 btn btn-light col">4</div>
+                <div class="m-2 btn btn-light col">5</div>
+                <div class="m-2 btn btn-light col">6</div>
+            </div>
+            <div class="row">
+                <div class="m-2 btn btn-light col">1</div>
+                <div class="m-2 btn btn-light col">2</div>
+                <div class="m-2 btn btn-light col">3</div>
+            </div>
+            <div class="row">
+                <div class="m-2 btn btn-light col-8">0</div>
+                <div class="m-2 btn btn-success col">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
