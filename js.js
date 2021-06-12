@@ -8,7 +8,7 @@ btn.map(
                 case '=': try{
                     show.innerText=eval(show.innerText);
                 }catch{
-                    show.innerText="Input invalid !";
+                    show.innerText="Invalid Input !";
                 };break;
                 default: show.innerText += e.target.innerText;
             }
